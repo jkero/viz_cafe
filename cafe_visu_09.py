@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import numpy as np
 
 # Charger le fichier CSV
 df = pd.read_csv("data_cafe_fric.csv")
@@ -70,10 +71,13 @@ axs[1, 0].set_xlabel('Valeur Marchande moyenne (USD/tonne)')
 axs[1, 0].set_ylabel('Région')
 
 # 5. Histogramme de la distribution des valeurs marchandes
-axs[1, 1].hist(df['Valeur Marchande (USD/tonne)'], bins=10, color='purple', alpha=0.7)
+axs[1, 1].hist(df['Valeur Marchande (USD/tonne)']/1000,bins='auto', color='purple', alpha=0.7)
+#df_region_value = df.groupby('Région')['Valeur Marchande (USD/tonne)'].mean().sort_values(ascending=False)
+axs[1, 1].yaxis.set_ticks(np.arange(0, 5, 1))
+axs[1, 1].xaxis.set_ticks(np.arange(1, 6, .33333))
 axs[1, 1].set_title('Répartition de la Valeur Marchande des Cafés')
 axs[1, 1].set_xlabel('Valeur Marchande (USD/tonne)')
-axs[1, 1].set_ylabel('Fréquence')
+axs[1, 1].set_ylabel('Nb. de types dans ces valeurs')
 
 # 6. Un graphique vide ou un autre exemple si nécessaire
 axs[1, 2].axis('off')  # Peut être utilisé pour un espace vide ou d'autres informations si nécessaire

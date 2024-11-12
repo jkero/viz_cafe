@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1be5f133-d6c1-4a93-b46c-af03c03cbab7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cafe_visu.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe_visu_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe_visu_05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe_visu_06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe_visu_07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe_visu_08.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cafe_visu_09.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_cafe.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_cafe_fric.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_bar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uodate_csv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viz_cafe_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viz_cafe_03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viz_cafe_04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cafe_visu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cafe_visu.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe_visu_09.py" beforeDir="false" afterPath="$PROJECT_DIR$/cafe_visu_09.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jkero"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jkero/viz_cafe.git",
+    "accountId": "29fd03f1-5cb5-4a3d-9894-4f6af7e246f8"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2oksewr5pTgqYEExLqHxwP4wfb3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -64,7 +61,8 @@
     "Python.viz_cafe_04.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/jack/PycharmProjects/cafe_visu"
+    "last_opened_file_path": "/home/jack/PycharmProjects/cafe_visu",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
